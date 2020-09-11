@@ -1,10 +1,10 @@
 package bankaccount;
 
-class InsufficientFundException extends Exception {
+public class InsuficientFundsException extends Exception {
 
     private String message;
 
-    public InsufficientFundException (String message) {
+    public InsuficientFundsException(String message) {
         this.message = message;
     }
 
